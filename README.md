@@ -18,12 +18,18 @@ The model architecture comprises two main modules:
    - Calibration using Platt Scaling to ensure well-calibrated outputs.  
 2. **Module Two**:  
    - Multi-stream feature extraction using Yolov8, Sobel filters, and XceptionNet.  
-   - Grad-CAM for visualization and explainability.  
+   - Grad-CAM for visualization and explainability.
+  
+   ![Ensemble](https://github.com/user-attachments/assets/cabaa9ae-4f42-4c98-a575-d3294011ddd5)
 
 ## Results  
+
 - **Calibration**: Achieved an 8% decrease in Expected Calibration Error (ECE) on the training set and a 13% decrease on the validation set.  
 - **Explainability**: Grad-CAM heatmaps demonstrate accurate localization of manipulated regions.  
-- **Ensemble Performance**: Outperforms baseline models in detecting deepfakes while maintaining computational efficiency.  
+- **Ensemble Performance**: Outperforms baseline models in detecting deepfakes while maintaining computational efficiency.
+
+  ![Comparison](https://github.com/user-attachments/assets/6d27282f-bc48-42b1-bb19-ebfd1ae14b29)
+
 
 ## Installation  
 1. Clone the repository:  
