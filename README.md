@@ -35,5 +35,5 @@ The model architecture comprises two main modules:
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/anantmehta33/CSCE_689_Hierarchical_Feature_Fusion.git
-   cd CSCE_689_Hierarchical_Feature_Fusion
+   git clone https://github.com/anantmehta33/Hierarchical-Multi-Stream-Fusion-for-Deepfake-Detection.git
+   cd Hierarchical-Multi-Stream-Fusion-for-Deepfake-Detection
