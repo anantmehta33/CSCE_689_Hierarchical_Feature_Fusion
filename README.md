@@ -20,7 +20,7 @@ The model architecture comprises two main modules:
    - Multi-stream feature extraction using Yolov8, Sobel filters, and XceptionNet.  
    - Grad-CAM for visualization and explainability.
   
-   <img src="https://github.com/user-attachments/assets/cabaa9ae-4f42-4c98-a575-d3294011ddd5" alt="Ensemble" width="500" />
+   <img src="https://github.com/user-attachments/assets/cabaa9ae-4f42-4c98-a575-d3294011ddd5" alt="Ensemble" width="700" />
 
 
 ## Results  
