@@ -30,8 +30,10 @@ The model architecture comprises two main modules:
 - **Ensemble Performance**: Outperforms baseline models in detecting deepfakes while maintaining computational efficiency.
 
   <img src="https://github.com/user-attachments/assets/6d27282f-bc48-42b1-bb19-ebfd1ae14b29" alt="Comparison" width="500" />
+
+## Comparison with SOTA on WildRF  
   
-![results](https://github.com/user-attachments/assets/14054c61-1d7b-4217-a9dc-fd4c798cda95)
+  ![results](https://github.com/user-attachments/assets/14054c61-1d7b-4217-a9dc-fd4c798cda95)
 
 
 
