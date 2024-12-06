@@ -30,6 +30,7 @@ The model architecture comprises two main modules:
 - **Ensemble Performance**: Outperforms baseline models in detecting deepfakes while maintaining computational efficiency.
 
   <img src="https://github.com/user-attachments/assets/6d27282f-bc48-42b1-bb19-ebfd1ae14b29" alt="Comparison" width="500" />
+  ![image](https://github.com/user-attachments/assets/decc2924-b435-4041-ba2f-447e69dddd4b)
 
 
 ## Installation  
