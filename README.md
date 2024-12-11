@@ -80,7 +80,10 @@ Follow the steps below to run the full pipeline and get the final output for HFM
   - XceptionNet
   - Yolov8
   - Sobel filter
-  
+  - Grad Cam (Explainable AI)
+    
+## Step 5: Make Ensemble
+- Use `Ensemble.ipynb` to get the final ensemble of module 1 and 2.
 This integration will generate the final output for the HFMF task.
 
 ## Here is the drive link for weights used:
