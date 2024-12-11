@@ -31,18 +31,18 @@ The model architecture comprises two main modules:
 
   <img src="https://github.com/user-attachments/assets/6d27282f-bc48-42b1-bb19-ebfd1ae14b29" alt="Comparison" width="600" />
 
-## Data Preparation
+## Data Preparation as follows:
 ```bash
 !pip install gdown
 from pathlib import PosixPath
-# WildRF
-# !gdown --id 1A0xoL44Yg68ixd-FuIJn2VC4vdZ6M2gn -c
-# !unzip -q -n WildRF.zip
-# image_path = PosixPath(“WildRF”)
-# CollabDiff
-# !gdown --id 1GpGvkxQ7leXqCnfnEAsgY_DXFnJwIbO4 -c
-# !unzip -q -n CollabDiff.zip
-# image_path = PosixPath(“content/drive/MyDrive/GenAI/CollabDiff”)
+#WildRF
+!gdown --id 1A0xoL44Yg68ixd-FuIJn2VC4vdZ6M2gn -c
+!unzip -q -n WildRF.zip
+image_path = PosixPath(“WildRF”)
+#CollabDiff
+gdown --id 1GpGvkxQ7leXqCnfnEAsgY_DXFnJwIbO4 -c
+!unzip -q -n CollabDiff.zip
+image_path = PosixPath(“content/drive/MyDrive/GenAI/CollabDiff”)
 ```
 
 ## Comparison with SOTA on WildRF  
@@ -56,3 +56,31 @@ from pathlib import PosixPath
    ```bash
    git clone https://github.com/anantmehta33/Hierarchical-Multi-Stream-Fusion-for-Deepfake-Detection.git
    cd Hierarchical-Multi-Stream-Fusion-for-Deepfake-Detection
+2. Running Instructions:
+
+Follow the steps below to run the full pipeline and get the final output for HFMF.
+
+## Step 1: Fetch Weights for ViT and ResNet
+
+- Open `ViTb16_finetuned.ipynb` to get the fine-tuned weights for the ViT and ResNet models.
+- Save the weights from this notebook and use them in `Module1_feature_extraction.ipynb` to obtain the final weights for Module 1.
+
+## Step 2: Get Logits Using DNN_M1_WildRF.ipynb
+
+- Use `DNN_M1_WildRF.ipynb` to get the logits. 
+- The notebook `Module 1.ipynb` is a refined version of this process, so you may use it for further improvements.
+
+## Step 3: Calibrate the Logits
+
+- Once the logits are obtained, calibrate them using the `calibration.py` script to adjust the outputs for the final model.
+
+## Step 4: Integrate with Other Models
+
+- Use `Module2.ipynb` to integrate the calibrated logits with other models, including:
+  - XceptionNet
+  - Yolov8
+  - Sobel filter
+  
+This integration will generate the final output for the HFMF task.
+
+
