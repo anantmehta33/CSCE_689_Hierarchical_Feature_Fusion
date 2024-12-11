@@ -74,7 +74,7 @@ Follow the steps below to run the full pipeline and get the final output for HFM
 
 - Once the logits are obtained, calibrate them using the `calibration.py` script to adjust the outputs for the final model.
 
-## Step 4: Integrate with Other Models
+## Step 4: Integrate with Module 2
 
 - Use `Module2.ipynb` to integrate the calibrated logits with other models, including:
   - XceptionNet
