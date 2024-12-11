@@ -38,11 +38,11 @@ from pathlib import PosixPath
 #WildRF
 !gdown --id 1A0xoL44Yg68ixd-FuIJn2VC4vdZ6M2gn -c
 !unzip -q -n WildRF.zip
-image_path = PosixPath(“WildRF”)
+
 #CollabDiff
 gdown --id 1GpGvkxQ7leXqCnfnEAsgY_DXFnJwIbO4 -c
 !unzip -q -n CollabDiff.zip
-image_path = PosixPath(“content/drive/MyDrive/GenAI/CollabDiff”)
+
 ```
 
 ## Comparison with SOTA on WildRF  
