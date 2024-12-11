@@ -83,4 +83,5 @@ Follow the steps below to run the full pipeline and get the final output for HFM
   
 This integration will generate the final output for the HFMF task.
 
-
+## Here is the drive link for weights used:
+https://drive.google.com/drive/folders/1Ek7z7qaqwVf2aYMMRzi14-BWxSTeef7w?usp=drive_link
