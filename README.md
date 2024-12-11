@@ -31,6 +31,20 @@ The model architecture comprises two main modules:
 
   <img src="https://github.com/user-attachments/assets/6d27282f-bc48-42b1-bb19-ebfd1ae14b29" alt="Comparison" width="600" />
 
+## Data Preparation
+```bash
+!pip install gdown
+from pathlib import PosixPath
+# WildRF
+# !gdown --id 1A0xoL44Yg68ixd-FuIJn2VC4vdZ6M2gn -c
+# !unzip -q -n WildRF.zip
+# image_path = PosixPath(“WildRF”)
+# CollabDiff
+# !gdown --id 1GpGvkxQ7leXqCnfnEAsgY_DXFnJwIbO4 -c
+# !unzip -q -n CollabDiff.zip
+# image_path = PosixPath(“content/drive/MyDrive/GenAI/CollabDiff”)
+```
+
 ## Comparison with SOTA on WildRF  
   
   ![results](https://github.com/user-attachments/assets/14054c61-1d7b-4217-a9dc-fd4c798cda95)
